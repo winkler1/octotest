@@ -13,6 +13,6 @@ jobs:
     name: Auto-update
     runs-on: ubuntu-latest
     steps:
-      - uses: winkler1/auto-update@6.0.0
+      - uses: winkler1/auto-update@6.0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
